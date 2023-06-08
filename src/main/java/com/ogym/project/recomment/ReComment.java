@@ -19,7 +19,7 @@ public class ReComment {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
+//fff///
     @Column(columnDefinition = "TEXT")
     private String content;
 
